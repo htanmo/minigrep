@@ -2,7 +2,7 @@
 
 A lightweight and simpler version of grep implemented in rust.
 
-## How to use (without installing)
+## How to use
 
 ```sh
 # running the application
