@@ -4,20 +4,20 @@ A lightweight and simpler version of grep implemented in rust.
 
 ## How to use (without installing)
 
-```bash
+```sh
 # running the application
 > cargo run --release <query> <file-path>
 ```
 
 ## Installing the application
 
-```bash
-> cargo install 
+```sh
+> cargo install --path . --locked
 ```
 
 running after installing it
 
-```bash
+```sh
 > minigrep <query> <filepath>
 ```
 
@@ -28,7 +28,7 @@ running after installing it
 
 `Command used : minigrep <query> <filepath>`
 
-```bash
+```sh
 > minigrep to poem.txt
 Are you nobody, too?
 How dreary to be somebody!
